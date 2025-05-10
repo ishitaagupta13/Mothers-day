@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    color: #d67ba8;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .photos {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .photos img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #d67ba8;
+  }
+  
+  .timeline-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .timeline-list li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #d67ba8;
+  }
+  
+  #memory-generator button {
+    background-color: #d67ba8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #memory-display {
+    margin-top: 20px;
+    font-style: italic;
+  }
+  .photo-card {
+    width: 200px;
+    height: 150px;
+    background-color: #ffe6f0;
+    border: 2px dashed #d67ba8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .photo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .placeholder {
+    padding: 10px;
+    color: #d67ba8;
+    font-weight: bold;
+  }
+  body {
+    background-image: url('3750210_75705.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
