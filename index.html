@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Our Memories - Mother's Day</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <style>
@@ -77,6 +78,56 @@
         opacity: 0.8;
       }
     }
+    @media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 1.75rem;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+
+  .photos {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .photos img,
+  .photo-card {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .timeline-list li {
+    font-size: 1rem;
+  }
+
+  #memory-generator button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .flip-card {
+    height: 200px !important;
+  }
+
+  .flip-card-inner {
+    height: 100% !important;
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    height: 100% !important;
+}
+}
   </style>
 </head>
 

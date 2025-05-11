@@ -12,15 +12,15 @@ const memories = [
   }
   
   const imagePaths = [
-    { src: "img1.jpg", alt: "Memory 1",message:"click here" },
-    { src: "img2.jpg", alt: "Memory 2",message:"click here" },
-    { src: "img3.jpg", alt: "Memory 3",message:"click here" },
-    { src: "img4.jpg", alt: "Memory 4",message:"click here" },
-    { src: "img5.jpg", alt: "Memory 4",message:"click here" },
-    { src: "img6.jpg", alt: "Memory 4",message:"click here" },
-    { src: "img7.jpg", alt: "Memory 4",message:"click here" },
-    { src: "img8.jpg", alt: "Memory 4",message:"click here" },
-    { src: "img9.jpg", alt: "Memory 4",message:"click here" },
+    { src: "img1.jpg", alt: "Memory 1",message:"jaipur ki yaadein" },
+    { src: "img2.jpg", alt: "Memory 2",message:"Beautiful mumma" },
+    { src: "img3.jpg", alt: "Memory 3",message:"Diwali memories" },
+    { src: "img4.jpg", alt: "Memory 4",message:"Bohot purani photo" },
+    { src: "img5.jpg", alt: "Memory 4",message:"Kitni cute hu mein" },
+    { src: "img6.jpg", alt: "Memory 4",message:"Sundar mummy" },
+    { src: "img7.jpg", alt: "Memory 4",message:"stylo mumma" },
+    { src: "img8.jpg", alt: "Memory 4",message:"Yellow mellow" },
+    { src: "img9.jpg", alt: "Memory 4",message:"Smilie" },
 
   ];
   
